@@ -1,0 +1,50 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+# Secrets/local config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+# Local upstream checkout and simulation assets
+upstream/
+external/
+third_party/
+simulator/
+models/
+checkpoints/
+datasets/
+artifacts/
+runs/
+logs/
+recordings/
+videos/
+*.log
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.mp4
+*.mov
+*.avi
+*.bag
+# Tooling
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+# Exception: tracked model manifests should live in docs/ or config/

@@ -8,7 +8,7 @@ import subprocess
 import sys
 import time
 
-ROOT = Path("/home/al-hub/workspace/microduck").resolve()
+ROOT = Path(__file__).resolve().parents[2]
 TASKS = {
     "inventory_tests": ([sys.executable, "-B", "-m", "unittest", "discover",
                          "-s", "experiments", "-p", "test_agent_inventory.py"], ROOT),

@@ -9,3 +9,10 @@
 - Never commit secrets, large binaries, upstream clones or generated output; update .gitignore before adding new asset types.
 - Use Issue → branch → PR → CI → merge; avoid direct main code changes except agreed project bootstrap.
 - Do not auto-download multi-GB artifacts without size and storage review.
+
+## Reference documentation and provenance
+
+- Begin hardware/API feasibility checks at [docs/reference/INDEX.md](docs/reference/INDEX.md).
+- Use [docs/reference/upstream-sources.md](docs/reference/upstream-sources.md) to open the upstream source and design docs directly, instead of repeatedly unpacking snapshots.
+- [docs/reference/specifications-ko.md](docs/reference/specifications-ko.md) is an unofficial, date-stamped Korean summary. Confirm critical details against the latest official materials; unknown capabilities require hardware validation.
+- Do not vendor the full Pollen Robotics repository or upstream ZIP into this project. Keep changes and verification outcomes in project Issues.
